@@ -1,6 +1,25 @@
-<!-- describe routes and endpoints here  -->
-http://localhost:5000/api/v1/register - Register a new user (name , email , password) <br/>
-http://localhost:5000/api/v1/login - Login a user (email , password) <br/> 
-http://localhost:5000/api/v1/logout - Logout a user <br/>
+### Steps to run the project
 
-# backendduck
+###### add this in config.env file in config folder
+
+```
+PORT=5000
+DB_URI="********************************"
+JWT_SECRET=*************************************
+JWT_EXPIRE=**
+COOKIE_EXPIRE=*
+```
+
+###### install dependencies
+
+```bash
+npm install
+```
+
+###### run the project
+
+```bash
+npm run dev
+```
+
+
